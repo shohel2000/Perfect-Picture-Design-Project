@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p,ol,ul,img,button{
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*##################*/
+/*header part start*/
+.header_part{
+	background: url(../images/bannar_img.jpg) no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.header_part .logo{
+	padding-top: 55px;
+}
+.header_part .header_con h1{
+	padding-top: 350px;
+}
+.header_part .header_con p{
+	padding: 20px 0px 377px;
+}
+.header_part .bannar_phn img{
+	/*margin-top: 1000px;*/
+	position: absolute;
+	top: 20%;
+	left: -68%;
+}
+/*header part end*/
+/*something part start*/
+.something_part{
+	padding: 110px 0px 80px;
+}
+.something_part .some_header{
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	color: #222626;
+	font-weight: 300;
+}
+.something_part .some_con1 p{
+	padding-top: 30px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #959595;
+}
+.something_part .some_con2{
+	padding-top: 125px;
+}
+.something_part .some_con2 p{
+	padding-bottom: 30px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #959595;
+}
+/*something part start*/
+/*.gly_img{
+	position: relative;
+}
+.div1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 20px 0px 50px;
+}
+.div1 h3{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+}
+.div1 p{
+	font-size: 13px;
+	color: #fff;
+	padding-top: 30px;
+}
+.div1 p a{
+	margin-top: 60px;
+	color: #fff;
+}
+.div1 .hidden{
+	display: none;
+	/*opacity: 0;
+}
+.view:click .hidden{
+	display: block;
+}
+.div1 i{
+	float: right;
+	color: #fff;
+}
+.row1{
+	display: flex;
+}*/
+.gly_row{
+	display: flex;
+}
+.gly_img{
+	position: relative;
+}
+.gly_img{
+	height: 400px;
+	width: 380px;
+}
+.gly_img4 .img4{
+	width: 760px;
+	height: 278px;
+}
+.gly_img .img5{
+	margin-right: -400px;
+}
+.gly_img .img_con{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 20px 0px 50px;
+}
+.gly_img4 .img_con .hidden,
+.gly_img .img_con .hidden{
+	display: none;
+}
+.gly_img4 .img_con h3,
+.gly_img .img_con h3{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 300;
+}
+.gly_img4 .img_con p,
+.gly_img .img_con p{
+	font-size: 13px;
+	color: #fff;
+	padding-top: 30px;
+}
+.gly_img4 .img_con p a,
+.gly_img .img_con p a{
+	margin-top: 60px;
+	color: #fff;
+}
+.gly_img4 .img_con i,
+.gly_img .img_con i{
+	float: right;
+	color: #fff;
+}
+.gly_img4 .img_con i{
+	margin-right: -143px;
+}
+.gly_img4{
+	position: relative;
+}
+.gly_img4 .img_con{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 0px 0px 50px;
+}
+.row2{
+	margin-top: -122px;
+}
+/*dtl part start*/
+.details_part{
+	margin-top: -30px;
+	padding-bottom: 160px;
+}
+.dtl_head{
+	font-size: 35px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #222626;
+}
+.dtl_con p{
+	font-size: 14px;
+	color: #959595;
+	font-family: 'Open Sans', sans-serif;
+}
+.dtl_con h6{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #67676d;
+	font-weight: 600;
+	padding: 60px 0px 10px;
+}
+/*dtl part end*/
+/*power part start*/
+.power_part{
+	background: url(../images/bannar_img2.jpg) no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.power_part .power_con{}
+.power_part .power_con h1{
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding-top: 450px;
+}
+.power_part .power_con p{
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px 0px 130px 0px;
+
+}
+.power_part .power_con p .hidden{
+	display: none;
+}
+.power_part .power_con p a{
+	color: #fff;
+}
+/*power part end*/
+/*resons part start*/
+.resons_part{
+	/*margin-top: -30px;*/
+	padding: 110px 0px 160px;
+	background: #82ca9c;
+}
+.res_head{
+	font-size: 35px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+.res_con p{
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.res_con h6{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: 600;
+	padding: 60px 0px 10px;
+}
+/*resons part end*/
+/*gols part start*/
+.gols_part{
+	background: #f6f7fa;
+	padding: 100px 0px 140px;
+}
+.gols_part .gols_con{
+	background: #f6f7fa;
+	padding: 47px 100px 55px 40px;
+}
+.gols_part .gols_con:hover{
+	background: #ffffff;
+	transition: .4s;
+}
+.gols_part .gols_con:hover .gol_btn a{
+background: #bd8cbf;
+transition: .4s;
+}
+.gols_part .gols_con .gol_btn{
+	padding-bottom: 15px;
+}
+.gols_part .gols_con .gol_btn a{
+	font-size: 11px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 3px 10px;
+	background: #e1e1e1;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.gols_part .gols_con h4{
+	font-size: 31px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #2e3b4e;
+}
+.gols_part .gols_con p{
+	font-size: 14px;
+	color: #8297a7;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px 0px 25px;
+}
+.gols_part .gols_con p .hidden{
+	display: none;
+}
+.gols_part .gols_con .gols_btn2{
+	padding-bottom: 20px;
+}
+.gols_part .gols_con .gols_btn2 a{
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 6px 15px;
+	background: #82ca9c;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.gols_part .gols_con .gols_logo{} 
+.gols_part .gols_con .gols_logo i{
+	font-size: 20px;
+	padding-right: 10px;
+	color: #c5c5c5;
+}
+/*gols part end*/
+/*footer part start*/
+.footer_part{
+	background: #192431;
+	padding: 130px 0px 150px;
+}
+.footer_part .right_con,
+.footer_part .left_con{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #f6f7fa;
+}
+.footer_part .right_con .p_head,
+.footer_part .left_con .p_head{
+	font-weight: 600;
+}
+.footer_part .left_con .p_con{
+	padding: 20px 0px 60px;
+}
+.footer_part .left_con .p_con .hidden{
+	display: none;
+}
+.footer_part .left_con .ft_link{}
+.footer_part .left_con .ft_link p{
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+.footer_part .left_con .ft_link ul{
+
+}
+.footer_part .left_con .ft_link ul li{
+	padding-bottom: 5px;
+}
+.footer_part .left_con .ft_link ul li a{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #f6f7fa;
+	text-decoration: none;
+}
+.footer_part .right_con .search{
+	padding: 20px 0px;
+}
+.footer_part .right_con .search input[type=text]{
+	height: 40px;
+	width: 300px;
+	border: none;
+}
+.footer_part .right_con .search a img{
+	padding: 13px 13px 9px 13px;
+	background: #82ca9c;
+	margin-top: -3px;
+}
+.footer_part .right_con .p_con{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	color: #57697f;
+}
+/*footer part end*/
+   /* font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+   
+
